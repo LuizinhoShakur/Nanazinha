@@ -10,7 +10,7 @@ function send(){
           });
         setTimeout(() =>{
 
-        window.location.href =  ".../home/home.html";
+        window.location.href =  "https://luizinhoshakur.github.io/Nanazinha/home/home.html";
     },2000);
 
     }
