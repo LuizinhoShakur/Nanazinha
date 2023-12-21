@@ -32,7 +32,7 @@ function send(){
           });
           
         setTimeout(() => {
-            window.location.href ='../error/error.html';
+            window.location.href ='https://luizinhoshakur.github.io/Nanazinha/error/error.html';
             
             
         }, 2000);
