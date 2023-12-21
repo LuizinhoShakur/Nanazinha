@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="cardfotos.css" />
+  <title>Carrossel</title>
+</head>
+<body>
+  <div class="container">
+    <a class="prev" href="#" onclick="addSlides(-1)">
+      <span>&#10094;</span>
+      <span class="prev-text">Voltar</span>
+    </a>
+    <div>
+      <div class="slides fade">
+        
+            <div class="img">
+                <img src="../img/mylover.jpg" />
+            </div>
+       
+        <h2 class="title">Nossa primera fotinha</h2>
+        <p class="content">Uma das nossas primeira fotos que a gente tirou. Lembro de você falando que era a primeira de muitas.</p>
+        <span>OBS: Guardo ela no meu coração! &#128151</span>
+      </div>
+      <div class="slides fade">
+        <div class="img">
+            <img src="../img/jogo.jpg" />
+        </div>
+
+        <h2 class="title">Primeiro game te assistindo</h2>
+        <p class="content">Primeiro game te assistindo e você ganhou! Foi bam demaizi!</p>
+        <span>Você estava toda felizinha! &#128151</span>
+      </div>
+      <div class="slides fade">
+        <div class="img">
+            <img src="../img/meuamor.jpg" />
+        </div>
+        <h2 class="title">Conhecendo seus pais</h2>
+        <p class="content">Um dia tão especial! o dia que fiquei com uma ansiedade imensa, mas valeu a pena por Você. 
+        </p>
+        <span>Dia que eu nunca esquecerei &#128151</span>
+      </div>
+    </div>
+    <div class="footer">
+      <button class="button" onclick="addSlides(1)">Próximo</button>
+      <div class="dot-box">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+    </div>
+  </div>
+  <a href="../heart/heart.html" class="proximo">Proximo >>   </a>
+  <script src="cardfotos.js"></script>
+</body>
+</html>
